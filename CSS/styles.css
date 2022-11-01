@@ -1,0 +1,14 @@
+/* .homePageBg{
+   background-image: url('/Assets/CarbackgroundChoice1.jpg');
+   width: 100px;
+} */
+
+.test{
+    width: auto;
+    height:730px;
+    background-image: url("/Assets/CarbackgroundChoice1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+}
