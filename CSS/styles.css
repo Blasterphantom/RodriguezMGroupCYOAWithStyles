@@ -1,14 +1,22 @@
-/* .homePageBg{
-   background-image: url('/Assets/CarbackgroundChoice1.jpg');
-   width: 100px;
-} */
 
-.test{
+.homePgBg{
     width: auto;
     height:730px;
     background-image: url("/Assets/CarbackgroundChoice1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content: center;
+    display: flex;
+}
+
+.homePgTitleTxt{
+    color: white;
+    margin-top: 30px;
+}
+
+.buttonsHome
+{
+    margin-top: 100px;
     justify-content: center;
     display: flex;
 }
