@@ -5,18 +5,29 @@
     background-image: url("/Assets/CarbackgroundChoice1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: center;
-    display: flex;
+   
 }
 
 .homePgTitleTxt{
     color: white;
     margin-top: 30px;
+    font-size: 500%;
+    justify-content: center;
+    display: flex;
 }
 
 .buttonsHome
 {
-    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    margin-top: 20%;
+}
+
+.btn1{
+    justify-content: center;
+    display: flex;
+}
+.btn2{
     justify-content: center;
     display: flex;
 }
