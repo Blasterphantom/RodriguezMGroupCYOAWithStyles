@@ -124,6 +124,13 @@
 
 }
 
+
+.pg2Bg{
+    background-image: url("../Assets/tacotruck.jpg");
+    justify-content: center;
+    display: flex;
+}
+
 /* Jovann Classes ------------------------------------------------- */
 
 /* Chris Classes Below ------------------------------------------------- */
