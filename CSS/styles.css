@@ -83,4 +83,41 @@
     justify-content: center;
     display: flex;
 }
+
+.pg1TitleTxt{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+}
+.endingStoryBtn{
+    justify-content: center;
+    display: flex;
+    width: 300px;
+}
+.endingPosition{
+    justify-content: center;
+    display: flex;
+    margin-top: 200px;
+}
+.endingOneBg{
+    background-image: url("../Assets/doms.gif");
+}
+.cardTxt{
+    text-align: center;
+}
+.cardPos{
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+.hotSauceImage{
+   width: 318px;
+   height: 300px;
+}
+
+
 /* Jovann Classes ------------------------------------------------- */
