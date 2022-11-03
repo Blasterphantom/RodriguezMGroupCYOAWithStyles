@@ -188,10 +188,11 @@
 /* Chris Classes Below ------------------------------------------------- */
 
 
-.chrisText{
+body{
     margin: 0;
     padding: 0;
     font-family: monospace;
+    
 }
 .menu-area{
     position: fixed;
@@ -231,7 +232,7 @@ a{
 a:hover{
     color: #000;
 }
-#home{
+.home{
     position: relative;
     background-image: url("../Assets/underpasscar.jpeg");
     width: 100%;
@@ -241,16 +242,16 @@ a:hover{
     background-position: center center;
     text-align: center;
 }
-#home .content{
+.home .content{
     width: 100%;
 }
-#home .content h1{
+.home .content h1{
     font-size: 90px;
     margin: 10px 0;
     color: #fff;
     text-align: start;
 }
-#home.content p{
+.home.content p{
     width: 90%;
     margin: auto;
     line-height: 1.6;
