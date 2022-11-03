@@ -184,10 +184,11 @@
 
 /* Chris Classes Below ------------------------------------------------- */
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: monospace;
+
+.chrisText{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
 }
 .menu-area {
   position: fixed;
@@ -284,7 +285,157 @@ btn btn-primary {
   background-color: red;
 }
 .button1 {
-  color: white;
-  font-size: xx-large;
-  background-color: red;
+    color: white;
+    font-size: xx-large;
+    background-color:red;
+}
+
+/* Chris Classes Above ------------------------------------------------- */
+
+/* Marcel Classes Below ------------------------------------------------- */
+
+@font-face {
+    font-family: porterText;
+    src: url(../assets/Gowun_Batang/GowunBatang-Regular.ttf);
+}
+
+.gohomea{
+    text-decoration: none;
+}
+
+.gohomebutton{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 20px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    border-radius: 12px;
+}
+
+.gohomebutton:hover{
+    color: black;
+    background-color: white;
+}
+
+.codestack{
+    height: 100px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 60%;
+    border-radius: 12px;
+}
+
+.dominos{
+    height: 150px;
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 10%;
+}
+
+.dominospizza{
+    height: 100px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 60%;
+    border-radius: 50%;
+}
+
+.dominoswings{
+    height: 100px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 60%;
+    border-radius: 50%;
+}
+
+.education{
+    height: 150px;
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 10%;
+}
+
+.potaro{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.side{
+    background-color:black;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.textbox{
+    background-color:rgba(255, 255, 255, 0.3);
+    margin-top: 100px;
+}
+
+.testcolumn{
+    background-image:url('../assets/Roadtrip2.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+ 
+    height: 800px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.textone h2{
+    text-align: center;
+    font-family: porterText;
+    color: black;
+    opacity: 1;
+}
+
+.titleboxcol{
+    background-image:url('../assets/SkyNew.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: auto;
+    padding: 0%;
+    margin: 0%;
+}
+
+.titletext{
+    font-family: porterText;
+    text-align: center;
+    top: 50%;
+    margin-top: 50px;
+}
+
+.topnav{
+    background-color:black;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0%;
+    margin: 0%;
+}
+
+.hometag{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
 }
