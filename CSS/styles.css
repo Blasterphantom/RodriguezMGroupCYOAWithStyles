@@ -188,7 +188,6 @@
 
 
 .chrisText{
-body{
     margin: 0;
     padding: 0;
     font-family: monospace;
@@ -233,7 +232,7 @@ a:hover{
 }
 #home{
     position: relative;
-    background-image: url('../Assets/underpasscar.jpeg');
+    background-image: url("../Assets/underpasscar.jpeg");
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
