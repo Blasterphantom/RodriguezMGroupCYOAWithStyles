@@ -1,243 +1,290 @@
-
-.homePgBg{
-    width: auto;
-    height:730px;
-    background-image: url("/Assets/CarbackgroundChoice1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-   
+.homePgBg {
+  width: auto;
+  height: 730px;
+  background-image: url("/Assets/CarbackgroundChoice1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.StartPgBg {
+  width: auto;
+  height: 730px;
+  background-image: url("../Assets/uhIdk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.homePgTitleTxt{
-    color: white;
-    margin-top: 30px;
-    font-size: 500%;
-    justify-content: center;
-    display: flex;
-    background-color: black; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.titlePgTxt
-{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
-    justify-content: center;
-    display: flex;
+.startBodyBg {
+  background-color: black;
 }
 
-.buttonsHome
-{
-    justify-content: center;
-    display: flex;
-    margin-top: 10%;
+.startBackBtn {
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
-.btn1{
-    justify-content: center;
-    display: flex;
+.homePgTitleTxt {
+  color: white;
+  margin-top: 30px;
+  font-size: 500%;
+  justify-content: center;
+  display: flex;
+  background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.btn2{
-    justify-content: center;
-    display: flex;
-}
-
-.storyTxt{
-    color: white;
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    margin-top: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.titlePgTxt {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  justify-content: center;
+  display: flex;
 }
 
-.sFormat{
-    justify-content: center;
-    display: flex;
-    margin-top: 50px;
-    opacity: 100%;
-}
-.stryBack{
-    background-color: black;
-    opacity: 70%;
-}
-.btnColor1{
-   width: 200px;
-   height: 50px;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-}
-.titlebtnColor1{
-   width: 400px;
-   height: 60px;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   font-size: 30px;
-
-}
-.btnColor2{
-   width: 200px;
-   height: 50px;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.buttonsHome {
+  justify-content: center;
+  display: flex;
+  margin-top: 10%;
 }
 
-.homePgBtn{
-    justify-content: center;
-    display: flex;
+.btn1 {
+  justify-content: center;
+  display: flex;
+}
+.btn2 {
+  justify-content: center;
+  display: flex;
 }
 
-.pg1TitleTxt{
-    font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    justify-content: center;
-    display: flex;
-    margin-top: 40px;
-    background-color: black;
-    color: white;
-}
-.endingStoryBtn{
-    justify-content: center;
-    display: flex;
-    width: 300px;
-}
-.endingPosition{
-    justify-content: center;
-    display: flex;
-    margin-top: 200px;
-}
-.endingOneBg{
-    background-image: url("../Assets/doms.gif");
-}
-.cardTxt{
-    text-align: center;
-}
-.cardPos{
-    justify-content: center;
-    display: flex;
-    margin-top: 50px;
-}
-.hotSauceImage{
-   width: 318px;
-   height: 300px;
+.storyTxt {
+  color: white;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.homeBtn{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+.sFormat {
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  opacity: 100%;
+}
+.stryBack {
+  background-color: black;
+  opacity: 70%;
+}
+.btnColor1 {
+  width: 200px;
+  height: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.titlebtnColor1 {
+  width: 400px;
+  height: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+}
+.btnColor2 {
+  width: 200px;
+  height: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
+.homePgBtn {
+  justify-content: center;
+  display: flex;
+}
 
-.pg2Bg{
-    background-image: url("../Assets/tacotruck.jpg");
-    justify-content: center;
-    display: flex;
+.pg1TitleTxt {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  justify-content: center;
+  display: flex;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+}
+.endingStoryBtn {
+  justify-content: center;
+  display: flex;
+  width: 300px;
+}
+.endingPosition {
+  justify-content: center;
+  display: flex;
+  margin-top: 200px;
+}
+.endingOneBg {
+  background-color: black;
+}
+.dominosDec {
+  background-image: url("../Assets/doms.gif");
+}
+.cardTxt {
+  text-align: center;
+}
+.cardPos {
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 95px;
+}
+.cardPos2 {
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.hotSauceImage {
+  width: 318px;
+  height: 300px;
+}
+
+.homeBtn {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.pg2Bg {
+  background-color: black;
+}
+
+.containerBg {
+  background-color: white;
+  background-image: url("../Assets/tacotruck.jpg");
+}
+
+.pg2TitleTxt {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  justify-content: center;
+  display: flex;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+}
+
+.Dec1 {
+  width: 100px;
+  height: 70px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.Dec2 {
+  width: 100px;
+  height: 70px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.Dec3 {
+  width: 100px;
+  height: 70px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 /* Jovann Classes ------------------------------------------------- */
 
 /* Chris Classes Below ------------------------------------------------- */
 
-
-body{
-    margin: 0;
-    padding: 0;
-    font-family: monospace;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
 }
-.menu-area{
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: rgba(224,228,231,0.2);
-    width: 100%;
-    height: 70px;
-    z-index: 1;
+.menu-area {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgba(224, 228, 231, 0.2);
+  width: 100%;
+  height: 70px;
+  z-index: 1;
 }
-.nav 
-{
-    display: flex;
-    justify-content: right;
-    list-style: none;
-    margin-right: 15%;
+.nav {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 15%;
 }
-.logo{
-    flex: 1 1 auto;
-    margin-left: 15%;
-    margin-bottom: 20px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 44px;
+.logo {
+  flex: 1 1 auto;
+  margin-left: 15%;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 44px;
 }
-a{
-    margin: 15px;
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
+a {
+  margin: 15px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-a:hover{
-    color: #000;
+a:hover {
+  color: #000;
 }
-#home{
-    position: relative;
-    background-image: url('../Assets/underpasscar.jpeg');
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    text-align: center;
+#home {
+  position: relative;
+  background-image: url("../Assets/underpasscar.jpeg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
 }
-#home .content{
-    width: 100%;
+#home .content {
+  width: 100%;
 }
-#home .content h1{
-    font-size: 90px;
-    margin: 10px 0;
-    color: #fff;
-    text-align: start;
+#home .content h1 {
+  font-size: 90px;
+  margin: 10px 0;
+  color: #fff;
+  text-align: start;
 }
-#home.content p{
-    width: 90%;
-    margin: auto;
-    line-height: 1.6;
-    color: red;
+#home.content p {
+  width: 90%;
+  margin: auto;
+  line-height: 1.6;
+  color: red;
 }
-#about{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height:100vh;
+#about {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
 }
-.content{
-    width: 90%;
-    height: 100%;
-    padding: 15% 0;
+.content {
+  width: 90%;
+  height: 100%;
+  padding: 15% 0;
 }
 .content h1 {
-    font-size: 100px;
-    text-transform: uppercase;
-    text-align: center;
+  font-size: 100px;
+  text-transform: uppercase;
+  text-align: center;
 }
-.content p{
-    font-size: 24px;
-    line-height: 50px;
+.content p {
+  font-size: 24px;
+  line-height: 50px;
 }
-btn btn-primary{
-    color: red;
+btn btn-primary {
+  color: red;
 }
 .button {
-    color: white;
-    font-size: xx-large;
-    background-color:red;
+  color: white;
+  font-size: xx-large;
+  background-color: red;
 }
 .button1 {
-    color: white;
-    font-size: xx-large;
-    background-color:red;
+  color: white;
+  font-size: xx-large;
+  background-color: red;
 }
